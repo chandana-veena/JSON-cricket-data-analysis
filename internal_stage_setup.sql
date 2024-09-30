@@ -1,3 +1,10 @@
+create database cricket;
+create schema land;
+create schema raw;
+create schema clean;
+create schema consumption;
+
+
 --File Format
 create or replace file format my_json_format
  type = json
